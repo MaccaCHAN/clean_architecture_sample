@@ -1,16 +1,20 @@
-# clean_architecture_sample
+# Clean Architecture_Sample
 
-reso coder clean architecture example
+This project is based on Reso Coder's inspiring TDD Clean Architecture Course. 
 
-## Getting Started
+https://resocoder.com/flutter-clean-architecture-tdd/
 
-This project is a starting point for a Flutter application.
+As the course was created in 2019, things have changed quite a bit in dart, flutter and some packages. I think many people who try to learn from the course may found it a bit hard to follow along, like myself. So I decided to create a project with updated versions of dart, flutter and the packages used in the project.
 
-A few resources to get you started if this is your first Flutter project:
+## Major updates from the original project
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Dart: version 2.16.1 is used. The major difference is that SOUND NULL SAFETY is adopted.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter_test: The unit tests are amended so that it works with null safety.
+
+Mocktail: Mocktail 0.2.0 is used instead of Mockito, as Mocktail doesn't need build_runner to work with null safety support.
+
+Flutter_bloc: Flutter_bloc 8.0.1 is used. The way it handles event is different than previous version.
+
+
+
