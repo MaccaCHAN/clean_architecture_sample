@@ -1,0 +1,24 @@
+dartdoc:
+  #  categories:
+  #    "pointBreakdown":
+  #      markdown: doc/doc01.md
+  #      name: pointBreakdown
+  #    "Second Category":
+  #      markdown: doc/doc02.md
+  #      name: referralCode
+  #  categoryOrder: ["pointBreakdown", "Second Category"]
+  #  examplePathPrefix: 'subdir/with/examples'
+  #  includeExternal: ['bin/unusually_located_library.dart']
+  #  nodoc: ['lib/account_screen.dart', 'lib/accounts/authentication/authentication.dart']
+  #  linkTo:
+  #    url: "https://my.dartdocumentationsite.org/dev/%v%"
+
+  include: ["numberTrivia"]
+
+  showUndocumentedCategories: true
+  ignore:
+    - ambiguous-doc-reference
+  errors:
+    - unresolved-doc-reference
+  warnings:
+    - tool-error
